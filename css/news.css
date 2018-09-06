@@ -1,0 +1,138 @@
+/*中部图片*/
+.news-container {
+	width: 100%;
+	height: 560px;
+	margin-top: 71px;
+}
+.news-container .c-box{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/news/bg.jpg) center center/cover;
+}
+.news-container .c-b-title{
+	width: 100%;
+	height: 100%;
+}
+.news-container .c-b-title .p1{
+	position: absolute;
+	top: 50%;
+	left: 10%;
+}
+.news-container .c-b-title .p1 img{
+	width: 100%;
+}
+.news-container .c-b-title .p2{
+	width: 800px;
+	margin: 0 auto;
+	padding-top: 250px;
+}
+.news-container .c-b-title .p2 img{
+	width: 100%;
+}
+.news-container .c-b-title .p3{
+	position: absolute;
+	top: 40%;
+	right: 10%;
+}
+.news-container .c-b-title .p3 img{
+	width: 100%;
+}
+.news-container .c-b-title .p4{
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+}
+.news-container .c-b-title .p4 img{
+	width: 100%;
+}
+/*中部图片结束*/
+
+/*新闻部分*/
+#case{
+	width: 100%;
+}
+.n-title{
+	max-width: 520px;
+	width: 50%;
+	height: 90px;
+	padding: 30px 0 12px;
+	margin: 0 auto;
+	line-height: 40px;
+	background: url(../images/news/line.png) no-repeat center bottom;
+}
+.n-title img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.n-title p{
+	margin-top: 18px;
+	font-size: 20px;
+	text-align: center;
+}
+.n-list{
+	position: relative;
+	min-width: 850px;
+	width: 45%;
+	margin: 30px auto;
+	padding-bottom: 40px;
+}
+.news-details{
+	overflow: hidden;
+	padding: 25px 0;
+}
+.news-img{
+	float: left;
+}
+.news-img img{
+	display: block;
+	width: 192px;
+	height: 118px;
+}
+.news-text{
+	float: left;
+	width: 600px;
+	margin-left: 50px;
+	font-size: 16px;
+	color: #969696;
+	line-height: 30px;
+}
+.news-text h1.news-title{
+	font-size: 20px;
+}
+.news-text h1.news-title a{
+	color: #000;
+}
+.news-text p.news-time{
+	color: #c8c8c8;
+	font-weight: bold;
+}
+.news-btn{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 22px;
+}
+.news-btn a{
+	display: block;
+    float: right;
+    margin: 0 5px;
+    height: 22px;
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 22px;
+    border-radius: 5px;
+    background: #000;
+    color: #F0F0F0;
+}
+.news-btn .pg-btn{
+	float: right;
+    height: 22px;
+}
+.news-btn .pg-btn a.pg-num{
+	float: left;
+}
+/*新闻部分结束

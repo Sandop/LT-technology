@@ -1,0 +1,130 @@
+/*900~1200区域*/
+@media all and (max-width: 1200px) and (min-width: 900px){
+	/*中部图片部分*/
+	.news-container {
+		height: 450px;
+	}
+	.news-container .c-b-title .p1{
+		left: 5%;
+		width: 110px;
+	}
+	.news-container .c-b-title .p2{
+		width: 600px;
+		padding-top: 170px;
+	}
+	.news-container .c-b-title .p3{
+		right: 5%;
+		width: 150px;
+	}
+	.news-container .c-b-title .p4{
+		width: 50px;
+	}
+
+	/*中部图片部分结束*/
+}
+
+/*0~900区域*/
+@media all and (max-width: 900px){
+	/*中部图片部分*/
+	.news-container {
+		height: 350px;
+		margin-top: 107px;
+	}
+	.news-container .c-b-title .p1{
+		width: 80px;
+	}
+	.news-container .c-b-title .p2{
+		width: 400px;
+		padding-top: 160px;
+	}
+	.news-container .c-b-title .p3{
+		width: 120px;
+	}
+	.news-container .c-b-title .p4{
+		width: 30px;
+	}
+	/*中部图片部分结束*/
+
+}
+
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	/*新闻部分*/
+	.n-list{
+		min-width: 500px;
+	}
+	.news-text{
+		float: left;
+		width: 300px;
+		margin-left: 6px;
+		font-size: 13px;
+		line-height: 25px;
+	}
+	.news-text h1.news-title{
+		font-size: 16px;
+	}
+	/*新闻部分结束*/
+
+}
+/*0~600区域*/
+@media all and (max-width: 600px) {
+	
+
+	/*中部图片部分*/
+	.news-container {
+		height: 300px;
+	}
+	.news-container .c-b-title .p1{
+		top: 20%;
+	}
+	.news-container .c-b-title .p2{
+		width: 300px;
+	}
+	.news-container .c-b-title .p3{
+		top: 10%;
+	}
+	/*中部图片部分结束*/
+
+	/*新闻部分*/
+	.n-title{
+		width: 70%;
+    	-webkit-background-size: contain;
+    	-moz-background-size: contain;
+    	background-size: contain;
+    }
+    .n-title img{
+    	width: 70%;
+    }
+    .n-list{
+		min-width: 320px;
+	}
+	.news-details{
+		padding: 0;
+	}
+	.news-img{
+		float: none;
+	}
+	.news-img img{
+		margin: 0 auto;
+	}
+	.news-text{
+		float: none;
+		width: 300px;
+		margin: 20px auto;
+		font-size: 12px;
+		line-height: 30px;
+	}
+	.news-text h1.news-title{
+		font-size: 16px;
+		text-align: center;
+	}
+	.news-btn{
+		width: 100%;
+		height: 22px;
+	}
+	.news-btn a{
+		margin: 0 2px;
+	}
+	/*新闻部分结束*/
+	
+}

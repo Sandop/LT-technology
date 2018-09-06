@@ -1,0 +1,142 @@
+/*中部图片区域*/
+.contact-container{
+	width: 100%;
+	height: 605px;
+	margin-top: 72px;
+}
+.contact-container .c-box{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/contact/bg.jpg) center center/cover;
+}
+.contact-container .c-b-contact{
+	max-width: 520px;
+	width: 50%;
+	height: 90px;
+	padding: 30px 0 12px;
+	margin: 25px auto 0;
+	line-height: 40px;
+	background: url(../images/contact/line.png) no-repeat center bottom;
+}
+.contact-container .c-b-contact img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.contact-container .c-b-contact p{
+	margin-top: 18px;
+	font-size: 20px;
+	text-align: center;
+}
+.c-b-weixin{
+	width: 100%;
+    margin: 4% auto 2%;
+}
+.c-b-weixin img{
+	display: block;
+    width: 150px;
+	margin: 0 auto;
+}
+.c-b-weixin p{
+	font-size: 16px;
+    color: #fff;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.c-b-email{
+	width: 805px;
+	height: 150px;
+	margin: 2% auto;
+}
+.c-b-email ul{
+	width: 100%;
+	height: 100%;
+}
+.c-b-email ul li{
+	float: left;
+	margin: 0 35px;
+    font-size: 18px;
+    color: #fff;
+}
+.c-b-email ul li img{
+	display: block;
+	width: 70px;
+	margin: 0 auto;
+}
+.c-b-email ul li span{
+	display: block;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 20px;
+}
+.c-b-email ul li.e-email{
+	width: 200px;
+}
+.c-b-email ul li.e-phone{
+	width: 185px;
+}
+.c-b-email ul li.e-address{
+	width: 201px;
+}
+.c-b-email ul li.e-phone span.e-p-service{
+    margin-top: 0px;
+}
+/*中部图片区域结束*/
+
+/*乘车路线部分*/
+#bus-routes{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+.bs-title{
+	max-width: 520px;
+	width: 50%;
+	height: 90px;
+	padding: 30px 0 12px;
+	margin: 0 auto;
+	line-height: 40px;
+	background: url(../images/contact/line.png) no-repeat center bottom;
+}
+.bs-title img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.bs-title p{
+	margin-top: 18px;
+	font-size: 20px;
+	text-align: center;
+}
+.bs-choose{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 100px 0;
+	font-size: 21px;
+	line-height: 70px;
+}
+.bs-choose li{
+	margin: 50px 0;
+}
+.bs-choose li img{
+	display: block;
+	float: left;
+	width: 70px;
+}
+.bs-choose li span{
+	margin-left: 40px;
+}
+.bs-map{
+	position: absolute;
+	top: -40%;
+	right: -4%;
+	width: 90%;
+	z-index: -1;
+}
+.bs-map img{
+	width: 100%;
+}
+/*乘车路线部分结束*/

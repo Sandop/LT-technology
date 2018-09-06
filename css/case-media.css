@@ -1,0 +1,121 @@
+
+/*900~1200区域*/
+@media all and (max-width: 1200px) and (min-width: 900px){
+	/*中部图片部分*/
+	.case-container{
+		height: 516px;
+	}
+	.case-container .c-b-title{
+		left: 50px;
+	}
+	/*中部图片部分结束*/
+}
+
+/*0~900区域*/
+@media all and (max-width: 900px){
+	/*中部图片部分*/
+	.case-container {
+		height: 400px;
+		margin-top: 107px;
+	}
+	.case-container .c-b-title{
+		width: 270px;
+		height: 91px;
+		left: 30px;
+		margin-top: -46px;
+	}
+	.case-container .c-b-title .p1{
+		height: 19px;
+	}
+	.case-container .c-b-title .p2{
+		height: 23px;
+	}
+	.case-container .c-b-title .p3{
+		height: 12px;
+	}
+	.case-container .c-b-title .p1 img{
+		width: 270px;
+		height: 19px;
+	}
+	.case-container .c-b-title .p2 img{
+		width: 270px;
+		height: 23px;
+	}
+	.case-container .c-b-title .p3 img{
+		width: 270px;
+		height: 12px;
+	}
+	/*中部图片部分结束*/
+}
+
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	/*中部图片部分*/
+	
+	/*中部图片部分结束*/
+
+}
+/*0~600区域*/
+@media all and (max-width: 600px) {
+	/*中部图片部分*/
+	.case-container {
+		height: 210px;
+	}
+	.case-container .c-b-title{
+		width: 150px;
+		height: 63px;
+		left: 10px;
+		margin-top: -31px;
+	}
+	.case-container .c-b-title .p1{
+		height: 11px;
+	}
+	.case-container .c-b-title .p2{
+		height: 13px;
+		margin: 10px 0 5px;
+	}
+	.case-container .c-b-title .p3{
+		height: 6px;
+	}
+	.case-container .c-b-title .p1 img{
+		width: 150px;
+		height: 11px;
+	}
+	.case-container .c-b-title .p2 img{
+		width: 150px;
+		height: 13px;
+	}
+	.case-container .c-b-title .p3 img{
+		width: 150px;
+		height: 6px;
+	}
+	/*中部图片部分结束*/
+
+	/*经典案例部分*/
+	#case .c-title{
+		width: 70%;
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+    	background-size: contain;
+    }
+    #case .c-title img{
+    	width: 70%;
+    }
+
+    .c-list{
+		max-width: 860px;
+		width: 80%;
+		margin: 10px auto;
+		color: #969696;
+		line-height: 30px;
+	}
+	.c-l-universty .p1{
+		font-size: 16px;
+		text-align: center;
+	}
+	.c-l-universty .p2{
+		font-size: 13px;
+	}
+	/*经典案例部分结束*/
+	
+}

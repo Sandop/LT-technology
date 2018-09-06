@@ -1,0 +1,73 @@
+/*900~1200区域*/
+@media all and (max-width: 1200px) and (min-width: 900px){
+	/*中部图片部分*/
+	.rec-container {
+		height: 450px;
+	}
+	.rec-container .c-b-title .p1{
+		width: 800px;
+		padding-top: 109px;
+	}
+
+	/*中部图片部分结束*/
+}
+
+/*0~900区域*/
+@media all and (max-width: 900px){
+	/*中部图片部分*/
+	.rec-container {
+		height: 350px;
+		margin-top: 107px;
+	}
+	.rec-container .c-b-title .p1{
+		width: 600px;
+		padding-top: 93px;
+	}
+	/*中部图片部分结束*/
+}
+
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	
+
+}
+/*0~600区域*/
+@media all and (max-width: 600px) {
+	
+
+	/*中部图片部分*/
+	.rec-container {
+		height: 200px;
+	}
+	.rec-container .c-b-title .p1{
+		width: 320px;
+		padding-top: 63px;
+	}
+	/*中部图片部分结束*/
+
+	/*招聘部分*/
+	.r-title{
+		width: 70%;
+    	-webkit-background-size: contain;
+    	-moz-background-size: contain;
+    	background-size: contain;
+    }
+    .r-title img{
+    	width: 70%;
+    }
+	.r-list .r-l-name h1{
+		font-size: 16px;
+		text-align: center;
+	}
+	.r-list .r-l-name ul li{
+		font-size: 13px;
+	}
+	.r-treatment{
+		font-size: 13px;
+		line-height: 22px;
+		padding-top: 20px;
+	}
+
+	/*招聘部分结束*/
+	
+}

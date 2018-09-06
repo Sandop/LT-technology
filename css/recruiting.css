@@ -1,0 +1,89 @@
+/*中部图片部分*/
+.rec-container {
+	width: 100%;
+	height: 560px;
+	margin-top: 72px;
+}
+.rec-container .c-box{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/recruiting/bg.jpg) center center/cover;
+}
+.rec-container .c-b-title{
+	width: 100%;
+	height: 100%;
+}
+.rec-container .c-b-title .p1{
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 133px;
+}
+.rec-container .c-b-title .p1 img{
+	width: 100%;
+}
+/*中部图片部分结束*/
+
+/*招聘部分*/
+#recruiting{
+	width: 100%;
+}
+.r-title{
+	max-width: 520px;
+	width: 50%;
+	height: 90px;
+	padding: 30px 0 12px;
+	margin: 0 auto;
+	line-height: 40px;
+	background: url(../images/recruiting/line.png) no-repeat center bottom;
+}
+.r-title img{
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.r-title p{
+	margin-top: 18px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.r-list{
+	width: 80%;
+	margin: 10px auto;
+	color: #969696;
+	line-height: 30px;
+}
+.r-list .r-l-name{
+	max-width: 520px;
+	margin: 0 auto;
+}
+.r-list .r-l-name h1{
+	padding: 25px 0;
+	font-size: 20px;
+	color: #2F96C5;
+}
+.r-list .r-l-name ul li{
+	font-size: 16px;
+}
+.r-treatment{
+	max-width: 660px;
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #93CA21;
+	padding-top: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.r-treatment .r-t-email{
+	color: #628816;
+	padding: 25px 0;
+}	
+.r-treatment .r-t-email span{
+	display: inline-block;
+	margin: 0 20px;
+}
+
+/*招聘部分结束*/

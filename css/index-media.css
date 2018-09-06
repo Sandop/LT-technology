@@ -1,0 +1,310 @@
+/*1200~1500区域*/
+@media all and (max-width: 1500px) and (min-width: 1200px){
+	/*轮播部分*/
+	#banner{
+		height: 500px;
+	}
+	.part1 .img1{
+		top: 308px;
+		left: 50px;
+	}
+	.part1 .img2{
+		width: 640px;
+		height: 440px;
+	}
+	.part2 .img1{
+		top: 300px;
+		left: 50px;
+	}
+	.part2 .img2{
+		bottom: 20px;
+		right: 100px;
+		width: 635px;
+		height: 450px;
+	}
+	.part3 .img1{
+		top: 100px;
+		right: 100px;
+	}
+	.part3 .img2{
+		top: 0;
+        left: 45px;
+        width: 640px;
+        height: 490px;
+	}
+	/*轮播部分结束*/
+
+	/*经典案例部分*/
+	#classic{
+		height: 790px;
+	}
+	.c-swiper{
+		height: 475px;
+	}
+	.c-swiper ul li{
+		width: 192px;
+		height: 317px;
+	}
+	.c-swiper ul li.mid{
+		width: 288px;
+		height: 475px;
+	}
+	.c-swiper ul li.slide{
+		width: 240px;
+		height: 396px;
+	}
+	/*经典案例部分结束*/
+
+
+}
+/*900~1200区域*/
+@media all and (max-width:1200px) and (min-width:900px){
+
+	/*轮播部分*/
+	#banner{
+		height: 450px;
+	}
+	.part1 .img1{
+		top: 308px;
+		left: 55px;
+	}
+	.part1 .img2{
+		right: 50px;
+		width: 500px;
+		height: 385px;
+	}
+	.part2 .img1{
+		top: 200px;
+		left: 50px;
+		width: 250px;
+		height: 120px;
+	}
+	.part2 .img2{
+		bottom: 50px;
+		right: 50px;
+		width: 546px;
+		height: 384px;
+	}
+	.part3 .img1{
+		top: 100px;
+        right: 50px;
+        width: 260px;
+        height: 100px;
+	}
+	.part3 .img2{
+		top: 20px;
+        left: 30px;
+        width: 500px;
+        height: 390px;
+	}
+	/*轮播部分结束*/
+
+	/*经典案例部分*/
+	#classic{
+		height: 740px;
+	}
+	.c-swiper{
+		width: 75%;
+		height: 354px;
+	}
+	.c-swiper ul li{
+		width: 144px;
+		height: 236px;
+	}
+	.c-swiper ul li.mid{
+		width: 216px;
+		height: 354px;
+	}
+	.c-swiper ul li.slide{
+		width: 180px;
+		height: 295px;
+	}
+	/*经典案例部分结束*/
+}
+/*0~900区域*/
+@media all and (max-width: 900px){
+	/*轮播部分*/
+	#banner{
+		margin-top: 110px;
+	}
+	.part1 .img1{
+		top: 270px;
+		left: 50%;
+		width: 196px;
+		height: 77px;
+		margin-left: -98px
+	}
+	.part1 .img2{
+		right: 50%;
+		top: 10px;
+		width: 330px;
+		height: 250px;
+		margin-right: -165px; 
+	}
+	/*轮播部分结束*/
+
+	/*经典案例部分*/
+	.c-dot{
+		display: none;
+	}
+	/*经典案例部分*/
+
+	/*研发伙伴部分*/
+	.p-company ul li{
+		float: none;
+		margin: 50px auto;
+	}
+	/*研发伙伴部分结束*/
+}
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	/*轮播部分*/
+	#banner{
+		height: 350px;
+	}
+	.part2 .img1{
+		top: 200px;
+		left: 30px;
+		width: 180px;
+		height: 90px;
+	}
+	.part2 .img2{
+		bottom: 36px;
+		right: 10px;
+		width: 370px;
+		height: 270px;
+	}
+	.part3 .img1{
+		top: 100px;
+        right: 30px;
+        width: 200px;
+        height: 100px;
+	}
+	.part3 .img2{
+		top: 50px;
+        left: 20px;
+        width: 350px;
+        height: 270px;
+	}
+	/*轮播部分结束*/
+	/*经典案例部分*/
+	#classic{
+        height: 690px;
+    }
+   .c-swiper{
+		width: 70%;
+		height: 354px;
+		margin-top: 100px; 
+	}
+	.c-swiper ul li{
+		width: 144px;
+		height: 236px;
+	}
+	.c-swiper ul li.mid{
+		width: 216px;
+		height: 354px;
+	}
+	.c-swiper ul li.slide{
+		width: 180px;
+		height: 295px;
+	}
+	/*经典案例部分结束*/
+}
+/*0~600区域*/
+@media all and (max-width: 600px){
+	/*轮播部分*/
+	#banner{
+		height: 400px;
+	}
+	.part1 .img1{
+		top: 295px;
+		
+	}
+	.part1 .img2{
+		top: 20px;
+	}
+	.part2 .img1{
+		top: 250px;
+		left: 50%;
+		width: 200px;
+		height: 94px;
+		margin-left: -100px;
+	}
+	.part2 .img2{
+		bottom: 172px;
+		right: 50%;
+		width: 300px;
+		height: 210px;
+		margin-right: -150px;
+	}
+	.part3 .img1{
+		top: 254px;
+        right: 50%;
+        width: 200px;
+        height: 100px;
+        margin-right: -100px;
+	}
+	.part3 .img2{
+		top: 0;
+        left: 50%;
+        width: 300px;
+        height: 233px;
+        margin-left: -150px;
+	}
+	/*轮播部分结束*/
+
+	/*经典案例部分*/
+	 #classic{
+        height: 690px;
+    }
+   	#classic .c-title{
+		width: 70%;
+    	-webkit-background-size: contain;
+    	-moz-background-size: contain;
+    	background-size: contain;
+    }
+    #classic .c-title img{
+    	width: 70%;
+    }
+    .c-swiper{
+		width: 198px;
+		height: 327px;
+		margin-top: 100px; 
+	}
+
+	.c-swiper ul li{
+		width: 144px;
+		height: 236px;
+	}
+	.c-swiper ul li.mid{
+		width: 198px;
+		height: 327px;
+	}
+	.c-swiper ul li.slide{
+		width: 180px;
+		height: 295px;
+	}
+	/*经典案例部分结束*/
+
+	/*研发伙伴部分*/
+
+	.p-title{
+		width: 70%;
+    	-webkit-background-size: contain;
+    	-moz-background-size: contain;
+    	background-size: contain;
+    }
+    .p-title img{
+    	width: 70%;
+    }
+    .p-company ul li.l1{
+		width: 36.3%;
+	}
+	.p-company ul li.l2{
+		width: 20%;
+	}
+	.p-company ul li.l3{
+		width: 35.5%;
+	}
+	/*研发伙伴部分结束*/
+}

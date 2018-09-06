@@ -1,0 +1,156 @@
+/*1200~1500区域*/
+@media all and (max-width: 1500px) and (min-width: 1200px){
+	/*乘车路线部分*/
+	.bs-map{
+		right: -10%;
+	    top: -20%;
+        width: 90%;
+	}
+	/*乘车路线部分结束*/
+}
+/*900~1200区域*/
+@media all and (max-width: 1200px) and (min-width: 900px){
+	/*中部图片部分*/
+	.contact-container {
+		height: 585px;
+	}
+	/*中部图片部分结束*/
+
+	/*乘车路线部分*/
+	.bs-choose{
+		width: 900px;
+	}
+	.bs-choose li{
+		margin: 10px 0;
+	}
+	.bs-map{
+		position: absolute;
+		top: 0%;
+		right: -20%;
+	}
+	.bs-map img{
+		width: 80%;
+	}
+	/*乘车路线部分结束*/
+}
+
+/*0~900区域*/
+@media all and (max-width: 900px){
+	/*中部图片部分*/
+	.contact-container {
+		height: 465px;
+		margin-top: 107px;
+	}
+	.contact-container .c-b-contact{
+		padding: 30px 0 12px;
+		margin: 0 auto;
+	}
+	.c-b-weixin img{
+	    width: 100px;
+	}
+	.c-b-email{
+		width: 550px;
+		margin: 5% auto;
+	}
+	.c-b-email ul li{
+		margin: 0 10px;
+	    font-size: 14px;
+	}
+	.c-b-email ul li img{
+		width: 40px;
+	}
+	.c-b-email ul li.e-email{
+		width: 160px;
+	}
+	.c-b-email ul li.e-phone{
+		width: 140px;
+	}
+	.c-b-email ul li.e-address{
+		width: 160px;
+	}
+	/*中部图片部分结束*/
+
+	/*乘车路线部分*/
+	.bs-choose{
+		width: 600px;
+		line-height: 50px;
+	}
+	.bs-choose li{
+	    width: 90%;
+	    font-size: 14px;
+		margin: 30px auto;
+	}
+	.bs-choose li img{
+		width: 50px;
+	}
+	.bs-map{
+		display: none;
+	}
+	/*乘车路线部分结束*/
+}
+
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	/*中部图片区域*/
+	
+	/*中部图片区域结束*/
+
+}
+/*0~600区域*/
+@media all and (max-width: 600px) {
+	
+	/*中部图片部分*/
+	.contact-container {
+		height: 500px;
+	}
+	.c-b-email{
+		width: 300px;
+		margin: 0 auto;
+	}
+	.c-b-email ul li{
+		width: 280px;
+		margin: 10px auto;
+	}
+	.c-b-email ul li img{
+		float: left;
+		width: 40px;
+		margin-right: 20px;
+	}
+	.c-b-email ul li span{
+		float: left;
+		font-size: 16px;
+	    margin-top: 5px;
+	}
+	.c-b-email ul li.e-email{
+		width: 280px;
+	}
+	.c-b-email ul li.e-phone{
+		width: 280px;
+	}
+	.c-b-email ul li.e-address{
+		width: 280px;
+	}
+	/*中部图片部分结束*/
+
+	/*乘车路线部分*/
+	.bs-choose{
+		width: 320px;
+		padding: 50px 0;
+	}
+	.bs-choose li{
+		width: 90%;
+		margin: 10px auto;
+	}
+	.bs-choose li img{
+		width: 40px;
+	}
+	.bs-choose li span{
+		margin-left: 60px;
+	    display: block;
+	    width: 80%;
+	    line-height: 30px;
+	    font-size: 14px;
+	}
+	/*乘车路线部分结束*/
+	
+}

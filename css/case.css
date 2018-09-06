@@ -1,0 +1,85 @@
+/*中部图片*/
+.case-container{
+	width: 100%;
+	height: 616px;
+	margin-top: 71px;
+}
+.case-container .c-box{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: url(../images/case/bg.jpg) center center/cover;
+}
+.case-container .c-b-title{
+	position: absolute;
+	left: 100px;
+	top: 50%;
+	width: 410px;
+	height: 114px;
+	margin-top: -57px;
+}
+.case-container .c-b-title .p1{
+	width: 100%;
+	height: 28px;
+}
+.case-container .c-b-title .p2{
+	width: 100%;
+	height: 34px;
+	margin: 20px 0 10px;
+}
+.case-container .c-b-title .p3{
+	width: 100%;
+	height: 17px;
+}
+.case-container .c-b-title .p img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/*中部图片结束*/
+
+/*经典案例部分*/
+#case{
+	width: 100%;
+}
+#case .c-title{
+	max-width: 521px;
+	width: 50%;
+	height: 90px;
+	padding-top: 30px;
+	margin: 0 auto;
+	background: url(../images/case/line.png) no-repeat center bottom;
+}
+#case .c-title img{
+	display: block;
+	margin: 0 auto;
+}
+#case .c-title p{
+	margin-top: 22px;
+	font-size: 18px;
+	text-align: center;
+}
+.c-list{
+	max-width: 860px;
+	width: 80%;
+	margin: 10px auto;
+	color: #969696;
+	line-height: 30px;
+}
+.c-l-universty .p1{
+	font-size: 20px;
+	color: #646464;
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+.c-l-universty .p2{
+	font-size: 16px;
+}
+.c-l-universty .p3{
+	max-width: 507px;
+	margin: 50px auto;
+}
+.c-l-universty .p3 img{
+	width: 100%;
+}
+/*经典案例部分结束*/

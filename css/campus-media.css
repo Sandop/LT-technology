@@ -1,0 +1,355 @@
+
+/*900~1200区域*/
+@media all and (max-width: 1200px) and (min-width: 900px){
+	.c-p-wrap{
+		width: 900px;
+	}
+	.c-p-tab{
+		width: 825px;
+	}
+	.c-p-clock{
+		width: 900px;
+	}
+	.c-p-platform{
+		width: 900px;
+	}
+	.c-p-equipment{
+		width: 880px;
+	}
+	.c-p-equipment .e-right{
+		width: 550px;
+	}
+}
+
+/*0~900区域*/
+@media all and (max-width: 900px){
+	#content{
+		margin-top: 106px;
+	}
+	#content .part .btn{
+		display: none;
+	}
+	#content .bg{
+		-webkit-background-attachment: scroll;
+		-moz-background-attachment: scroll;
+		background-attachment: scroll;
+	}
+	#content .bg{
+        height: 300px;
+    }
+    .c-p-wrap{
+    	width: 100%
+    }
+	.c-p-wrap .w-left{
+		position: static;
+		margin: 0 auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.c-p-wrap .w-left .p1{
+		font-size: 34px;
+	}
+	.c-p-wrap .w-right{
+		position: relative;
+		width: 400px;
+		height: 343px;
+		margin: 0 auto;
+	}
+	.c-p-wrap .w-right .p2{
+		right: 24px;
+	}
+	.c-p-wrap .w-right .p1 img{
+		width: 400px;
+		height: 265px;
+	}
+	.c-p-wrap .w-right .p2 img{
+		width: 350px;
+		height: 327px;
+	}
+	.c-p-tab .tab1{
+		float: none;
+		margin: 0 auto;
+		padding-top: 30px;
+		text-align: center;
+	}
+	.c-p-tab .tab1 .p1{
+		font-size: 34px;
+	}
+	.c-p-tab .tab2,
+	.c-p-tab .tab3{
+		margin-top: 36px;
+	}
+	.c-p-clock{
+    	width: 100%
+    }
+	.c-p-clock .c-left{
+		position: static;
+		margin: 0 auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.c-p-clock .c-left .p1{
+		font-size: 34px;
+	}
+	.c-p-clock .c-right{
+		position: relative;
+		width: 400px;
+		height: 387px;
+		margin: 0 auto;
+	}
+	.c-p-clock .c-right .p2{
+		top: 115px;
+		left: 163px;
+		-webkit-transform-origin: 30px 77px;
+		-moz-transform-origin: 30px 77px;
+		-ms-transform-origin: 30px 77px;
+		-o-transform-origin: 30px 77px;
+		transform-origin: 30px 77px;
+	}
+	.c-p-clock .c-right .p1 img{
+		width: 400px;
+		height: 325px;
+	}
+	.c-p-clock .c-right .p2 img{
+		width: 118px;
+		height: 118px;
+	}
+
+	.c-p-platform{
+    	width: 100%
+    }
+	.c-p-platform .p-right{
+		position: static;
+		margin: 0 auto;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.c-p-platform .p-right .p1{
+		font-size: 34px;
+	}
+	.c-p-platform .p-left{
+		position: absolute;
+		top: 115px;
+		left: 53%;
+		width: 417px;
+		height: 340px;
+		-webkit-transform: rotate(0deg) translate(-50%,0);
+		-moz-transform: rotate(0deg) translate(-50%,0);
+		-ms-transform: rotate(0deg) translate(-50%,0);
+		-o-transform: rotate(0deg) translate(-50%,0);
+		transform: rotate(0deg) translate(-50%,0);
+	}
+	.c-p-platform .p-left .p1{
+		width: 100%;
+		height: 100%;
+	}
+	.c-p-platform .p-left .p1 img{
+		left: -3px;
+		width: 300px;
+		height: 300px;
+	}
+
+	
+	.c-p-equipment{
+		width: 100%;
+	}
+	.c-p-equipment .e-left{
+		position: static;
+	    margin: 0 auto;
+	    padding-top: 20px;
+		text-align: center;
+	}
+	.c-p-equipment .e-left .p1{
+		font-size: 34px;
+	}
+	.c-p-equipment .e-left .p3{
+		margin-left: 35px;
+	}
+	.c-p-equipment .e-left .p3 ul>li img{
+		width: 35px;
+		height: 35px;
+	}
+	.c-p-equipment .e-right{
+		position: absolute;
+		top: 240px;
+		left: 50%;
+		width: 400px;
+		height: 216px;
+		-webkit-transform: rotate(0deg) translate(-50%,0);
+		-moz-transform: rotate(0deg) translate(-50%,0);
+		-ms-transform: rotate(0deg) translate(-50%,0);
+		-o-transform: rotate(0deg) translate(-50%,0);
+		transform: rotate(0deg) translate(-50%,0);
+	}
+}
+
+/*600~900区域*/
+@media all and (max-width: 900px) and (min-width: 600px){
+	#c-part1 .c-p-title{
+		width: 200px;
+		height: 120px;
+		padding: 10% 0 0 20%;
+	}
+	#c-part1 .c-p-title .p1{
+		font-size: 30px;
+	}
+	#c-part1 .c-p-title .p2{
+		font-size: 16px;
+	}
+	.c-p-tab{
+		width: 600px;
+	}
+
+}
+/*0~600区域*/
+@media all and (max-width: 600px) {
+	#c-part1 .c-p-title{
+		width: 150px;
+		height: 70px;
+		padding: 10% 0 0 20%;
+	}
+	#c-part1 .c-p-title .p1{
+		font-size: 24px;
+	}
+	#c-part1 .c-p-title .p2{
+		font-size: 12px;
+		line-height: 20px;
+	}
+	#c-part1 .c-p-box{
+		height: 40px;
+        line-height: 40px;
+        font-size: 12px;
+	}
+	.c-p-wrap .w-left{
+		height: 100px;
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.c-p-wrap .w-left .p1{
+		font-size: 24px;
+		line-height: 44px;
+	}
+	.c-p-wrap .w-right{
+		width: 300px;
+		height: 270px;
+		margin-top: 50px;
+	}
+	.c-p-wrap .w-right .p2{
+		right: 14px;
+	}
+	.c-p-wrap .w-right .p1 img{
+		width: 300px;
+		height: 200px;
+	}
+	.c-p-wrap .w-right .p2 img{
+		width: 270px;
+		height: 253px;
+	}
+	#c-part3{
+		height: 650px;
+	}
+	.c-p-tab{
+		width: 100%;
+	}
+	.c-p-tab .tab1{
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.c-p-tab .tab1 .p1{
+		font-size: 24px;
+		line-height: 44px;
+	}
+	.c-p-tab .tab2{
+		float: none;
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+	}
+	.c-p-tab .tab3{
+		float: none;
+        width: 300px;
+        height: 100px;
+        margin: 25px auto 0;
+	}
+	.c-p-tab .tab3 ul li{
+		float: left;
+        margin: 0 18px;
+	}
+	.c-p-tab .tab3 ul li span{
+		font-size: 16px;
+	}
+	.c-p-tab .tab3 ul li.on span{
+		color: #b6d230;
+		font-size: 16px;
+	}
+
+	.c-p-clock .c-left{
+		height: 100px;
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.c-p-clock .c-left .p1{
+		font-size: 24px;
+		line-height: 44px;
+	}
+	.c-p-clock .c-right{
+		width: 300px;
+		height: 270px;
+		margin-top: 50px;
+	}
+	.c-p-clock .c-right .p2{
+		top: 73px;
+		left: 121px;
+		transform-origin: 23px 62px;
+	}
+	.c-p-clock .c-right .p1 img{
+		width: 300px;
+		height: 244px;
+	}
+	.c-p-clock .c-right .p2 img{
+		width: 95px;
+		height: 95px;
+	}
+
+
+	.c-p-platform .p-right{
+		height: 100px;
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.c-p-platform .p-right .p1{
+		font-size: 24px;
+		line-height: 44px;
+	}
+	.c-p-platform .p-left{
+		width: 318px;
+		height: 261px;
+	}
+	.c-p-platform .p-left .p1 img{
+		width: 230px;
+		height: 230px;
+	}
+
+
+	.c-p-equipment .e-left{
+		height: 100px;
+		font-size: 14px;
+		line-height: 27px;
+	}
+	.c-p-equipment .e-left .p1{
+		font-size: 24px;
+		line-height: 44px;
+	}
+	.c-p-equipment .e-right{
+		width: 300px;
+		height: 162px;
+	}
+	.c-p-equipment .e-left .p3 ul>li span{
+		width: 34px;
+		font-size: 14px;
+	}
+	.c-p-equipment .e-left .p3 ul>li img{
+		width: 30px;
+		height: 30px;
+	}
+}
